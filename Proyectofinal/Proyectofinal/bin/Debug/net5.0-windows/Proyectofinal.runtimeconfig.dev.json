@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\palenque\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\palenque\\.nuget\\packages"
+    ]
+  }
+}
