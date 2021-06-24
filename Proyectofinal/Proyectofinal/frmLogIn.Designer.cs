@@ -1,7 +1,7 @@
 ﻿
 namespace Proyectofinal
 {
-    partial class Form1
+    partial class frmLogIn
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@ namespace Proyectofinal
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogIn));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnLogIn = new System.Windows.Forms.Button();
@@ -90,13 +90,12 @@ namespace Proyectofinal
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
             this.tableLayoutPanel1.TabIndex = 2;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // btnLogIn
             // 
             this.btnLogIn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnLogIn.BackColor = System.Drawing.Color.DimGray;
-            this.btnLogIn.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLogIn.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnLogIn.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLogIn.Location = new System.Drawing.Point(343, 373);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(114, 23);
@@ -117,11 +116,11 @@ namespace Proyectofinal
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(243, 315);
+            this.label1.Location = new System.Drawing.Point(243, 313);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 14);
+            this.label1.Size = new System.Drawing.Size(62, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "CABINA";
             // 
@@ -138,11 +137,11 @@ namespace Proyectofinal
             // 
             this.lblPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblPassword.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblPassword.ForeColor = System.Drawing.Color.White;
-            this.lblPassword.Location = new System.Drawing.Point(243, 250);
+            this.lblPassword.Location = new System.Drawing.Point(243, 248);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(95, 14);
+            this.lblPassword.Size = new System.Drawing.Size(107, 16);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "CONTRASEÑA";
             // 
@@ -158,44 +157,46 @@ namespace Proyectofinal
             // lblUser
             // 
             this.lblUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblUser.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblUser.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblUser.ForeColor = System.Drawing.Color.White;
             this.lblUser.Location = new System.Drawing.Point(243, 185);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(65, 14);
+            this.lblUser.Size = new System.Drawing.Size(75, 14);
             this.lblUser.TabIndex = 0;
             this.lblUser.Text = "USUARIO";
             // 
             // btnRegister
             // 
             this.btnRegister.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnRegister.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRegister.Location = new System.Drawing.Point(607, 416);
+            this.btnRegister.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnRegister.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRegister.Location = new System.Drawing.Point(604, 416);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(146, 23);
+            this.btnRegister.Size = new System.Drawing.Size(152, 23);
             this.btnRegister.TabIndex = 3;
             this.btnRegister.Text = "REGISTRAR EMPLEADO";
-            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(60, 416);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 23);
             this.button1.TabIndex = 4;
             this.button1.Text = "AGREGAR CABINA";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // frmLogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(69)))), ((int)(((byte)(191)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "Form1";
+            this.Name = "frmLogIn";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);

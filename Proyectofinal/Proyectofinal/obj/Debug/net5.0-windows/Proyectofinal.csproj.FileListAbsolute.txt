@@ -6,7 +6,6 @@ C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyecto
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\bin\Debug\net5.0-windows\ref\Proyectofinal.dll
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\bin\Debug\net5.0-windows\Proyectofinal.pdb
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.csproj.AssemblyReference.cache
-C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.Form1.resources
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.Properties.Resources.resources
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.csproj.GenerateResource.cache
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,3 +16,5 @@ C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyecto
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\ref\Proyectofinal.dll
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.pdb
 C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\Proyectofinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.genruntimeconfig.cache
+C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\ProyectoFinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.frmCabin.resources
+C:\Users\palenque\Documents\UCA PROGRA\POO\Proyecto final\ProyectoFinal\Proyectofinal\obj\Debug\net5.0-windows\Proyectofinal.frmLogIn.resources
